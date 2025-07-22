@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #cfb4f6; /* Light purple background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+
+}
+
+#game {
+  background-color: #F2E6FF; /* Lighter purple for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+/* HUD Styling */
+#hud {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#hud-item {
+  text-align: center;
+}
+
+.hud-prefix {
+  font-size: 16px;
+  color: #777;
+  margin: 0;
+}
+
+.hud-main-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Question Styling */
+#question {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Choice Container */
+.choice-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #efddf9;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.choice-container:hover {
+  background-color: #efb6ff; /* Hover effect */
+}
+
+.choice-prefix {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #b663ff; /* Purple color for prefixes */
+}
+
+.choice-text {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Feedback and Timer */
+#feedback {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #470d5d;
+}
+
+#timer {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FF6347; /* Timer in orange/red for urgency */
+}
+
+.correct {
+  background-color: green !important;
+  color: white;
+}
+
+.incorrect {
+  background-color: red !important;
+  color: white;
+}
